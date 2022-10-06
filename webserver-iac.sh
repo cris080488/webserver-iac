@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "atualizando e instalando as dependencias..."
+echo "Atualizando e instalando as dependências..."
 
 apt-get update
 apt-get upgrade -y
 apt-get install apache2 -y
 apt-get install unzip -y
 
-echo "baixando e copiando os arquivos da aplicação..."
+echo "Baixando e copiando os arquivos da aplicação..."
 
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
